@@ -1,11 +1,14 @@
 
-
+//imports
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 
+//read
 const {API_URL,PRIVATE_KEY} = process.env;
 
+// codeis important
+// add your networks and RPC and private keys 
 module.exports={
   solidity : "0.8.9",
   defaultNetwork:"goerli",
